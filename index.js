@@ -23,7 +23,8 @@ function generateBalls(n, w, h) {
 }
 
 let prev_timestamp;
-const balls = generateBalls(100, W, H);
+const NB_BALLS = 250;
+const balls = generateBalls(NB_BALLS, W, H);
 
 function draw(timestamp) {
 
