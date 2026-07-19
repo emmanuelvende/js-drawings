@@ -4,7 +4,7 @@ import { randomFromInterval, generateRandomColor } from "./randomize.js";
 const p = document.getElementById('info');
 
 const drawingZone = document.getElementById('drawingZone');
-const [W, H] = [400, 300];
+const [W, H] = [1280, 720];
 drawingZone.width = W;
 drawingZone.height = H;
 const ctx = drawingZone.getContext("2d");
